@@ -111,6 +111,7 @@
       border-radius: 4px;
       background: rgba(11, 58, 124, 0.08);
       color: #0b3a7c;
+      font-size: 0.9em;
     }
 
     .reveal pre {
@@ -190,14 +191,14 @@
 
     .reveal .about-layout {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 300px;
+      grid-template-columns: minmax(0, 1fr) 420px;
       gap: 24px;
       align-items: start;
     }
 
     .reveal .about-layout img {
-      width: 300px;
-      height: 300px;
+      width: 420px;
+      height: 420px;
       object-fit: cover;
       border-radius: 6px;
     }
@@ -775,7 +776,7 @@
             <p class="kicker">About me</p>
             <h2>Pamela Fox</h2>
             <p class="about-role">Principal Cloud Advocate at Microsoft / GitHub</p>
-            <p class="about-history">Formerly: UC Berkeley, Coursera,<br>Khan Academy, Google</p>
+            <p class="about-history">Formerly: UC Berkeley, Coursera, Khan Academy, Google</p>
             <table class="about-links">
               <tbody>
                 <tr><td>Twitter</td><td><a href="https://twitter.com/pamelafox" target="_blank" rel="noopener noreferrer">🔗 @pamelafox</a></td></tr>
@@ -842,14 +843,14 @@
           </ul>
           <img src="screenshot_codespaces_open.png" alt="GitHub Code menu with the Codespaces tab and a Create codespace on main button">
         </div>
-        <div class="callout"><strong>Recommended for today:</strong> fork the repo, then select <strong>Code → Codespaces → Create codespace on main</strong>.</div>
       </section>
 
       <section>
         <span class="time">10 min</span>
-        <h3><span class="exercise-label">Exercise 1</span>Set up environment and GitHub Copilot</h3>
-        <p><a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop/blob/main/exercise1.md"><code>exercise1.md</code></a></p>
-        <p>GitHub repository: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop">github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
+        <h3><span class="exercise-label">Exercise 1:</span>Set up environment and GitHub Copilot</h3>
+        <p>GitHub repository: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop">🔗 github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
+        <p>Open full exercise: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop/blob/main/exercise1.md">🔗 exercise1.md</a></p>
+        <p>Exercise steps:</p>
         <ol>
           <li>Fork the workshop repository into your account.</li>
           <li>Choose Codespaces, a Dev Container, or a local environment.</li>
@@ -1155,55 +1156,11 @@
 
       <section>
         <h3>MCP clients</h3>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; margin-top: 8px;">
-          <div>
-            <p style="font-size: 0.82em; margin: 0 0 10px; font-weight: 600; color: #32115f;">Clients with the strongest support:</p>
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-              <div style="background: rgba(255,255,255,0.7); border-radius: 10px; padding: 12px 8px; text-align: center; border: 1px solid #d8cff0;">
-                <div style="font-size: 1.7em; margin-bottom: 3px;">🤖</div>
-                <strong style="font-size: 0.82em; line-height: 1.15; display: inline-block;">Claude Code</strong>
-              </div>
-              <div style="background: rgba(255,255,255,0.7); border-radius: 10px; padding: 12px 8px; text-align: center; border: 1px solid #d8cff0;">
-                <div style="font-size: 1.7em; margin-bottom: 3px;">🖥️</div>
-                <strong style="font-size: 0.82em; line-height: 1.15; display: inline-block;">Claude Desktop</strong>
-              </div>
-              <div style="background: rgba(255,255,255,0.7); border-radius: 10px; padding: 12px 8px; text-align: center; border: 1px solid #d8cff0;">
-                <div style="font-size: 1.7em; margin-bottom: 3px;">💻</div>
-                <strong style="font-size: 0.82em; line-height: 1.15; display: inline-block;">VS Code + GitHub Copilot</strong>
-              </div>
-              <div style="background: rgba(255,255,255,0.7); border-radius: 10px; padding: 12px 8px; text-align: center; border: 1px solid #d8cff0;">
-                <div style="font-size: 1.7em; margin-bottom: 3px;">🪿</div>
-                <strong style="font-size: 0.82em; line-height: 1.15; display: inline-block;">goose</strong>
-              </div>
-              <div style="background: rgba(255,255,255,0.7); border-radius: 10px; padding: 12px 8px; text-align: center; border: 1px solid #d8cff0;">
-                <div style="font-size: 1.7em; margin-bottom: 3px;">🔬</div>
-                <strong style="font-size: 0.82em; line-height: 1.15; display: inline-block;">MCPJam Inspector</strong>
-              </div>
-              <div style="background: rgba(255,255,255,0.7); border-radius: 10px; padding: 12px 8px; text-align: center; border: 1px solid #d8cff0;">
-                <div style="font-size: 1.7em; margin-bottom: 3px;">🔍</div>
-                <strong style="font-size: 0.82em; line-height: 1.15; display: inline-block;">MCP Inspector</strong>
-              </div>
-            </div>
-          </div>
-          <div>
-            <p style="font-size: 0.82em; margin: 0 0 10px; font-weight: 600; color: #32115f;">Support across <a target="_blank" href="https://modelcontextprotocol.io/clients">100+ clients</a> varies:</p>
-            <table style="font-size: 0.95em; width: 100%; border-collapse: collapse;">
-              <thead>
-                <tr><th style="padding: 10px 12px;">Capability</th><th style="padding: 10px 12px;">Support</th></tr>
-              </thead>
-              <tbody>
-                <tr><td style="padding: 10px 12px;">Tools</td><td style="padding: 10px 12px;">All</td></tr>
-                <tr><td style="padding: 10px 12px;">Prompts</td><td style="padding: 10px 12px;">43/113</td></tr>
-                <tr><td style="padding: 10px 12px;">Resources</td><td style="padding: 10px 12px;">47/113</td></tr>
-                <tr><td style="padding: 10px 12px;">OAuth with DCR</td><td style="padding: 10px 12px;">16/113</td></tr>
-                <tr><td style="padding: 10px 12px;">Elicitation</td><td style="padding: 10px 12px;">16/113</td></tr>
-                <tr><td style="padding: 10px 12px;">Apps</td><td style="padding: 10px 12px;">10/113</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+        <p style="font-size: 0.86em; margin: 0 0 12px;">Support for MCP features varies across MCP hosts:</p>
+        <img src="screenshot_caniuse_mcp_clients.png" alt="caniuse.dev comparison of MCP feature support in Claude Code, Codex, Copilot, and VS Code" style="width: 100%; max-height: 480px; object-fit: contain; margin: 0; border: 1px solid #d8cff0; border-radius: 8px;">
+        <p class="muted" style="font-size: 0.68em; margin-top: 10px;"><a target="_blank" rel="noopener noreferrer" href="https://caniuse.dev/host-compare">🔗 caniuse.dev/host-compare</a></p>
         <aside class="notes">
-          Tools are the universal denominator — every client supports them. VS Code and Claude Code have the strongest full-spec support including OAuth. MCPJam and MCP Inspector are testing tools rather than production agents.
+          Avoid treating MCP support as a single checkbox. Use caniuse.dev for a current comparison, then verify the client version and configuration your audience will use.
         </aside>
       </section>
 
@@ -1212,18 +1169,18 @@
         <div class="two-column" style="grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: stretch;">
           <div style="display: flex; flex-direction: column;">
             <h4>Add to <code>.mcp.json</code></h4>
-            <pre style="flex: 1; margin-bottom: 0;"><code class="language-json" data-trim style="font-size: 0.72em; height: 100%; box-sizing: border-box;">{
-  "mcpServers": {
-    "microsoft-learn": {
-      "type": "http",
-      "url": "https://learn.microsoft.com/api/mcp"
-    }
+            <pre style="flex: 1; margin-bottom: 0;"><code class="language-json" data-trim style="font-size: 0.82em; height: 100%; box-sizing: border-box;">{
+ "mcpServers": {
+  "microsoft-learn": {
+   "type": "http",
+   "url": "https://learn.microsoft.com/api/mcp"
   }
+ }
 }</code></pre>
           </div>
           <div>
             <h4>Or install from Extensions</h4>
-            <p style="font-size: 0.66em;">Search <code>@mcp</code> in the Extensions view:</p>
+            <p style="font-size: 0.76em;">Search <code>@mcp</code> in the Extensions view:</p>
             <img class="client-shot" src="screenshot_vscode_mcpextensions2.png" alt="VS Code Extensions view searching @mcp, showing the GitHub MCP server with an Install button" style="margin: 0;">
           </div>
         </div>
@@ -1233,37 +1190,40 @@
       <section class="compact-code">
         <h3>Configure Copilot CLI with public MCP server</h3>
         <p class="lead">Add remote servers to your Copilot CLI user configuration.</p>
-        <div class="two-column" style="align-items: stretch;">
-          <div class="box">
+        <div style="display: grid; gap: 18px;">
+          <div class="box" style="min-height: 0;">
             <h4>1. Add the server</h4>
-            <pre><code class="language-shell" data-trim>copilot mcp add --transport http \
-  microsoft-learn \
-  https://learn.microsoft.com/api/mcp</code></pre>
+            <pre><code class="language-shell" data-trim style="font-size: 0.92em;">copilot mcp add --transport http microsoft-learn https://learn.microsoft.com/api/mcp</code></pre>
           </div>
           <div class="box">
             <h4>2. Verify the server</h4>
-            <p>Start <code>copilot</code>, then run:</p>
-            <pre><code class="language-plaintext" data-trim>/mcp show microsoft-learn</code></pre>
+            <p>Start Copilot CLI:</p>
+            <pre><code class="language-shell" data-trim style="font-size: 0.92em;">copilot</code></pre>
+            <p>Then run:</p>
+            <pre><code class="language-plaintext" data-trim style="font-size: 0.92em;">/mcp show microsoft-learn</code></pre>
           </div>
         </div>
       </section>
 
       <section class="compact-code">
         <h3>Configure Copilot app with public MCP server</h3>
-        <div class="two-column">
-          <div>
-            <h4>1. Add the server</h4>
-            <div class="step"><div class="step-number">1</div><div>Open <strong>Settings → MCP → Add server</strong>.</div></div>
-            <div class="step"><div class="step-number">2</div><div>Name it <code>microsoft-learn</code> and choose <strong>HTTP</strong>.</div></div>
-            <div class="step"><div class="step-number">3</div><div>Enter the URL, then add the server.</div></div>
+        <div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr); gap: 22px; align-items: start;">
+          <div class="box" style="min-height: 0;">
+            <div class="step"><div class="step-number">1</div><div>Open <strong>Customize → MCP → Add server → Add custom server</strong>.</div></div>
+            <div class="step"><div class="step-number">2</div><div>Give the server a name.</div></div>
+            <div class="step"><div class="step-number">3</div><div>Select <strong>HTTP</strong> as the server type.</div></div>
+            <div class="step">
+              <div class="step-number">4</div>
+              <div style="width: 100%;">
+                <div>Enter the server URL:</div>
+                <code style="font-size: 0.78em; white-space: nowrap;">https://learn.microsoft.com/api/mcp</code>
+              </div>
+            </div>
+            <div class="step"><div class="step-number">5</div><div>Select <strong>Add server</strong>.</div></div>
+            <div class="step"><div class="step-number">6</div><div>Confirm the server shows as enabled and loaded with a green check mark.</div></div>
           </div>
-          <div>
-            <h4>2. Enter the connection details</h4>
-            <p><strong>URL</strong></p>
-            <pre><code class="language-plaintext" data-trim>https://learn.microsoft.com/api/mcp</code></pre>
-          </div>
+          <img src="screenshot_copilot_app_add_mcp_server.png" alt="Copilot app Add MCP Server dialog configured for the Microsoft Learn HTTP server" style="width: 100%; max-height: 510px; object-fit: contain; margin: 0; border: 1px solid #d8cff0; border-radius: 8px;">
         </div>
-        <div class="callout">Confirm the server shows as enabled and loaded with a green check mark.</div>
       </section>
 
       <section>
@@ -1274,11 +1234,11 @@
           <div class="box"><h4>🔧 What can it do?</h4><p>Some tools only read. Others change files, repositories, or shared services.</p></div>
           <div class="box"><h4>📥 What comes back?</h4><p>Tool descriptions and results are untrusted input that can steer the agent.</p></div>
         </div>
-        <div class="callout">You stay in control at two moments: when you connect a server, and each time a tool is called.</div>
+        <div class="callout">You exercise your control at two moments: <br> when you connect a server, and each time a tool is called.</div>
       </section>
 
       <section>
-        <h3>Inspecting a tool call</h3>
+        <h3>Approving a tool call</h3>
         <div class="approval-layout">
           <div class="approval-shot">
             <img src="screenshot_vscode_prtool.png" alt="VS Code tool approval dialog for Create Pull Request, showing the title and description arguments, a warning that it changes remote state, and Allow in this Session and Skip buttons">
@@ -1299,9 +1259,10 @@
 
       <section>
         <span class="time">15 min</span>
-        <h3><span class="exercise-label">Exercise 2</span>Connect GitHub Copilot to an MCP server</h3>
-        <p><a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop/blob/main/exercise2.md"><code>exercise2.md</code></a></p>
-        <p>GitHub repository: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop">github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
+        <h3><span class="exercise-label">Exercise 2:</span>Connect GitHub Copilot to an MCP server</h3>
+        <p>GitHub repository: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop">🔗 github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
+        <p>Open full exercise: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop/blob/main/exercise2.md">🔗 exercise2.md</a></p>
+        <p>Exercise steps:</p>
         <ol>
           <li>Connect the Microsoft Learn MCP server.</li>
           <li>Inspect tool schemas before using them.</li>
@@ -1310,19 +1271,6 @@
       </section>
 
       <section class="heading-only"><h2>Authenticated MCP servers</h2></section>
-
-      <section>
-        <h3>Public and authenticated servers</h3>
-        <table>
-          <thead><tr><th></th><th>Microsoft Learn MCP</th><th>GitHub MCP</th></tr></thead>
-          <tbody>
-            <tr><td><strong>Data</strong></td><td>Public Microsoft documentation</td><td>Public and account-authorized GitHub data</td></tr>
-            <tr><td><strong>Authentication</strong></td><td>None</td><td>OAuth or token, depending on client</td></tr>
-            <tr><td><strong>Operations</strong></td><td>Read-only search and fetch</td><td>Read and optional write tools</td></tr>
-            <tr><td><strong>Primary risk</strong></td><td>Unverified synthesis or excessive context</td><td>Data exposure and unintended state changes</td></tr>
-          </tbody>
-        </table>
-      </section>
 
       <section>
         <h3>How MCP servers restrict access</h3>
@@ -1469,7 +1417,7 @@
       <section>
         <h3>Every request carries your token</h3>
         <p style="font-size: 0.82em; margin: 0 0 10px;">After sign-in, the client sends your token with each tool call:</p>
-        <svg viewBox="0 0 1100 620" role="img" aria-label="OAuth-protected MCP request and response flow" style="margin-top: -86px; width: 88%; max-width: 1100px; height: auto;">
+        <svg viewBox="44 0 1056 632" role="img" aria-label="OAuth-protected MCP request and response flow" style="display: block; margin: -86px auto 0 0; width: 88%; max-width: 1100px; height: auto;">
           <defs>
             <linearGradient id="oauthFlowServerCard" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stop-color="#ffffff"/>
@@ -1496,23 +1444,24 @@
           <rect x="346" y="188" width="430" height="40" rx="12" fill="#f5f7fb" stroke="#dbe6f5" stroke-width="2"/>
           <text x="364" y="215" font-family="SFMono-Regular, Consolas, monospace" font-size="16" fill="#111111">Authorization: Bearer &lt;access_token&gt;</text>
           <rect x="346" y="238" width="430" height="206" rx="18" fill="#f5f7fb" stroke="#dbe6f5" stroke-width="2"/>
-          <text x="364" y="266" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#2b2b2b">{</text>
-          <text x="382" y="290" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#2b2b2b">"jsonrpc": "2.0",</text>
-          <text x="382" y="314" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#2b2b2b">"method": "tools/call",</text>
-          <text x="382" y="338" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#2b2b2b">"params": {</text>
-          <text x="404" y="362" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#2b2b2b">"name": "list_issues",</text>
-          <text x="404" y="386" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#2b2b2b">"arguments": { "repo": "..." }</text>
-          <text x="382" y="410" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#2b2b2b">}</text>
-          <text x="364" y="434" font-family="SFMono-Regular, Consolas, monospace" font-size="12" fill="#2b2b2b">}</text>
+          <text x="364" y="266" font-family="SFMono-Regular, Consolas, monospace" font-size="16" fill="#2b2b2b">{</text>
+          <text x="382" y="290" font-family="SFMono-Regular, Consolas, monospace" font-size="16" fill="#2b2b2b">"jsonrpc": "2.0",</text>
+          <text x="382" y="314" font-family="SFMono-Regular, Consolas, monospace" font-size="16" fill="#2b2b2b">"method": "tools/call",</text>
+          <text x="382" y="338" font-family="SFMono-Regular, Consolas, monospace" font-size="16" fill="#2b2b2b">"params": {</text>
+          <text x="404" y="362" font-family="SFMono-Regular, Consolas, monospace" font-size="16" fill="#2b2b2b">"name": "list_issues",</text>
+          <text x="404" y="386" font-family="SFMono-Regular, Consolas, monospace" font-size="16" fill="#2b2b2b">"arguments": { "repo": "..." }</text>
+          <text x="382" y="410" font-family="SFMono-Regular, Consolas, monospace" font-size="16" fill="#2b2b2b">}</text>
+          <text x="364" y="434" font-family="SFMono-Regular, Consolas, monospace" font-size="16" fill="#2b2b2b">}</text>
           <line x1="788" y1="500" x2="292" y2="500" stroke="#0b3a7c" stroke-width="5" marker-end="url(#oauthFlowArrow)"/>
           <g transform="translate(540 500)">
             <rect x="-34" y="-18" width="68" height="34" rx="17" fill="#ffffff" stroke="#1a6bde" stroke-width="2"/>
             <text x="0" y="7" text-anchor="middle" font-family="Atkinson Hyperlegible, sans-serif" font-size="18" font-weight="700" fill="#1a6bde">MCP</text>
           </g>
-          <rect x="346" y="534" width="430" height="72" rx="18" fill="#f5f7fb" stroke="#dbe6f5" stroke-width="2"/>
-          <text x="364" y="560" font-family="SFMono-Regular, Consolas, monospace" font-size="11.5" fill="#2b2b2b">{</text>
-          <text x="382" y="582" font-family="SFMono-Regular, Consolas, monospace" font-size="11.5" fill="#2b2b2b">"jsonrpc": "2.0", "result": {</text>
-          <text x="382" y="602" font-family="SFMono-Regular, Consolas, monospace" font-size="11.5" fill="#2b2b2b">"content": [{ "title": "Fix quiz bug" }, ...] } }</text>
+          <rect x="346" y="518" width="430" height="108" rx="18" fill="#f5f7fb" stroke="#dbe6f5" stroke-width="2"/>
+          <text x="364" y="542" font-family="SFMono-Regular, Consolas, monospace" font-size="15.5" fill="#2b2b2b">{ "jsonrpc": "2.0",</text>
+          <text x="382" y="565" font-family="SFMono-Regular, Consolas, monospace" font-size="15.5" fill="#2b2b2b">"result": { "content": [</text>
+          <text x="404" y="588" font-family="SFMono-Regular, Consolas, monospace" font-size="15.5" fill="#2b2b2b">{ "title": "Fix quiz bug" }, ...</text>
+          <text x="382" y="611" font-family="SFMono-Regular, Consolas, monospace" font-size="15.5" fill="#2b2b2b">] } }</text>
         </svg>
         <aside class="notes">
           The request is a normal MCP tools/call, plus an Authorization header with your token. The server checks the token and returns only what your account can see.
@@ -1522,8 +1471,8 @@
       <section>
         <h3>Authentication vs. authorization</h3>
         <div class="two-column" style="margin-top: 16px; align-items: stretch;">
-          <div class="box"><h4>Authentication</h4><p>Proves who you are, usually with OAuth in the browser. Some clients also accept a personal access token.</p><p><strong>GitHub:</strong> your GitHub account, plus any org SSO policy.</p></div>
-          <div class="box"><h4>Authorization</h4><p>Decides what each call may read or change, based on your account's permissions.</p><p><strong>GitHub:</strong> the repositories and orgs you can access.</p></div>
+          <div class="box" style="display: flex; flex-direction: column;"><h4>Authentication</h4><p>Proves who you are, usually with OAuth in the browser. Some clients also accept a personal access token.</p><p style="margin-top: auto;"><strong>GitHub example:</strong> your GitHub account, plus any org SSO policy.</p></div>
+          <div class="box" style="display: flex; flex-direction: column;"><h4>Authorization</h4><p>Decides what each call may read or change, based on your account's permissions.</p><p style="margin-top: auto;"><strong>GitHub example:</strong> the repositories and orgs you can access.</p></div>
         </div>
         <div class="callout">The agent can do anything your account can do, within the access you granted.</div>
       </section>
@@ -1558,9 +1507,10 @@
 
       <section>
         <span class="time">20 min</span>
-        <h3><span class="exercise-label">Exercise 3</span>Connect GitHub Copilot to GitHub MCP server</h3>
-        <p><a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop/blob/main/exercise3.md"><code>exercise3.md</code></a></p>
-        <p>GitHub repository: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop">github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
+        <h3><span class="exercise-label">Exercise 3:</span>Connect GitHub Copilot to GitHub MCP</h3>
+        <p>GitHub repository: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop">🔗 github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
+        <p>Open full exercise: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop/blob/main/exercise3.md">🔗 exercise3.md</a></p>
+        <p>Exercise steps:</p>
         <ol>
           <li>Connect GitHub MCP with authenticated tools.</li>
           <li>List and choose an open quiz issue.</li>
@@ -1622,7 +1572,7 @@
             <p>Scripts, references, and assets are loaded only as needed.</p>
           </div>
         </div>
-        <div class="callout">Test your description: the skill should activate when it's needed, and stay quiet when it's not.</div>
+        <div class="callout">Well designed skills are activated only when needed - <br>not over-activated or under-activated.</div>
         <aside class="notes">This is progressive disclosure, as described in the Agent Skills spec. Exact behavior varies by client, and many clients also let you invoke a skill directly, for example with a slash command.</aside>
       </section>
 
@@ -1649,16 +1599,15 @@
         <div class="two-column" style="align-items: stretch;">
           <div class="box">
             <h4>Option 1: GitHub CLI</h4>
-            <pre style="margin: 0 0 12px;"><code class="language-bash" data-trim>gh skill install mattpocock/skills \
-  grill-me</code></pre>
+            <pre style="margin: 0 0 0px; font-size:0.7em;"><code class="language-bash" data-trim>gh skill install mattpocock/skills</code></pre>
           </div>
           <div class="box">
             <h4>Option 2: skills CLI</h4>
-            <pre style="margin: 0 0 12px;"><code class="language-bash" data-trim>npx skills add mattpocock/skills \
-  --skill grill-me</code></pre>
+            <pre style="margin: 0 0 0px; font-size:0.7em;""><code class="language-bash" data-trim>npx skills add mattpocock/skills</code></pre>
           </div>
         </div>
-        <p class="muted">Both let you choose where to install: project or user level, and for which agents.</p>
+        <p>Both let you choose where to install: project or user level, and for which agents.</p>
+
         <div class="callout warning">Third-party skills run with agent permissions. Review their instructions and scripts before invoking them.</div>
       </section>
 
@@ -1685,27 +1634,40 @@
       <section class="compact-code">
         <h3>Skills over MCP</h3>
         <p>An official MCP extension lets servers ship skills alongside their tools.</p>
-        <div class="two-column" style="align-items: stretch;">
-          <div class="box">
-            <h4>How it works</h4>
-            <ul class="tight">
-              <li>Server declares the skills extension</li>
-              <li><code>skills/list</code> returns each skill's frontmatter and file list</li>
-              <li>Files are read on demand as <code>skill://</code> resources</li>
-              <li>Host checks each file's SHA-256 digest before loading</li>
-            </ul>
+        <div class="two-column" style="grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: stretch;">
+          <div style="display: grid; gap: 14px;">
+            <div class="box" style="min-height: 0;">
+              <h4>How it works</h4>
+              <ul class="tight">
+                <li>Server declares the skills extension</li>
+                <li><code>skills/list</code> returns each skill's frontmatter and file list</li>
+              </ul>
+            </div>
+            <div class="box" style="min-height: 0;">
+              <h4>Why it helps</h4>
+              <ul class="tight">
+                <li>Instructions live with the service they describe</li>
+                <li>Skill updates ship with the server</li>
+              </ul>
+            </div>
           </div>
-          <div class="box">
-            <h4>Why it helps</h4>
-            <ul class="tight">
-              <li>Instructions live with the service they describe</li>
-              <li>Skill updates ship with the server</li>
-              <li>No separate install step for users</li>
-              <li>Hosts treat skill content as untrusted and ask for approval</li>
+          <div class="box" style="min-height: 0;">
+            <h4>Example: GitHub MCP server</h4>
+            <p style="margin-top: 0;">Proposed skills for potential future release:</p>
+            <ul class="tight" style="columns: 2; column-gap: 24px; font-size: 0.9em;">
+              <li><code>address-pr-feedback</code></li>
+              <li><code>debug-ci</code></li>
+              <li><code>fix-dependabot</code></li>
+              <li><code>prepare-release</code></li>
+              <li><code>review-pr</code></li>
+              <li><code>security-audit</code></li>
+              <li><code>triage-issues</code></li>
+              <li><code>trigger-workflow</code></li>
             </ul>
+            <p style="font-size: 0.56em; margin-bottom: 0;"><a target="_blank" href="https://github.com/github/github-mcp-server/pull/3046">🔗 Draft PR</a></p>
           </div>
         </div>
-        <p><a target="_blank" href="https://github.com/modelcontextprotocol/ext-skills">ext-skills</a></p>
+        <p>🔗 <a target="_blank" href="https://github.com/modelcontextprotocol/ext-skills">ext-skills</a></p>
         <aside class="notes">The extension ID is io.modelcontextprotocol/skills. It builds on the existing Resources primitive. A server lists skills with their name, description, and a manifest of files with digests. The host loads SKILL.md only when a skill is selected, verifies it against the manifest, and pulls supporting files on demand. Approval binds to the manifest, so a changed file requires fresh approval.</aside>
       </section>
 
@@ -1714,21 +1676,22 @@
         <p>An open standard for packaging skills and MCP servers into one portable plugin.</p>
         <div class="two-column" style="grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); align-items: stretch;">
           <div style="display: flex; flex-direction: column;">
-            <pre style="flex: 1; margin: 0;"><code class="language-plaintext" data-trim style="height: 100%; box-sizing: border-box;">my-plugin/
+            <pre style="flex: 1; margin: 0;"><code class="nohighlight hljs" data-trim data-noescape style="height: 100%; box-sizing: border-box; color: #0b3a7c;">my-plugin/
 ├── plugin.json
 ├── skills/
-│   └── summarize/
+│   └── skill-name/
 │       └── SKILL.md
 ├── mcp.json
-└── com.example.client/
-    └── hooks/</code></pre>
+<span style="color: #6b4fd8;">└── com.github.copilot/
+    └── hooks/
+        └── hooks.json</span></code></pre>
           </div>
           <div class="box">
             <ul class="tight">
               <li><code>plugin.json</code>: names the plugin and the spec version it targets</li>
               <li><code>skills/</code>: Agent Skills, in the standard format</li>
               <li><code>mcp.json</code>: MCP servers to connect</li>
-              <li>Reverse-domain folders: client-specific extras, like hooks</li>
+              <li>Client-specific folders such as <code style="color: #6b4fd8;">com.github.copilot/</code>: optional extras like hooks; other clients ignore them</li>
             </ul>
           </div>
         </div>
@@ -1760,52 +1723,85 @@
 
       <section>
         <span class="time">15 min</span>
-        <h3><span class="exercise-label">Exercise 4</span>Run agent skills in GitHub Copilot</h3>
-        <p><a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop/blob/main/exercise4.md"><code>exercise4.md</code></a></p>
-        <p>GitHub repository: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop">github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
+        <h3><span class="exercise-label">Exercise 4:</span>Run agent skills in GitHub Copilot</h3>
+        <p>GitHub repository: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop">🔗 github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
+        <p>Open full exercise: <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop/blob/main/exercise4.md">🔗 exercise4.md</a></p>
+        <p>Choose one or more activities:</p>
         <ol>
-          <li>Run the project's <code>/pr-summary-report</code> skill.</li>
-          <li>Install and run the <code>/grill-me</code> skill.</li>
-          <li>Inspect and run built-in Copilot client skills.</li>
-          <li>Create a brand new agent skill.</li>
+          <li>Inspect and run the project's <code>/pr-summary-report</code> skill.</li>
+          <li>Inspect and run a built-in Copilot client skill.</li>
+          <li>Install Matt Pocock's skills and try <code>/codebase-design</code>.</li>
+          <li>Create and test a <code>/quiz-question-reviewer</code> project skill.</li>
         </ol>
       </section>
 
       <section class="heading-only"><h2>Next steps</h2></section>
 
       <section>
-        <h3>A five-question approval check</h3>
-        <ol>
-          <li><strong>Source:</strong> Do I trust this server or skill?</li>
-          <li><strong>Identity:</strong> Which account and organization policy apply?</li>
-          <li><strong>Scope:</strong> Which systems and private data can the tool access?</li>
-          <li><strong>Operation:</strong> Is this read-only, mutating, or destructive?</li>
-          <li><strong>Payload:</strong> Are the target, arguments, and outgoing data correct?</li>
-        </ol>
-        <div class="callout warning">Repository content, tool descriptions, and fetched text can all carry prompt injection. Treat external content as untrusted.</div>
+        <h3>Learn more: GitHub Copilot</h3>
+        <div class="two-column" style="align-items: stretch;">
+          <div class="box">
+            <h4>🎥 VS Code + GitHub Copilot</h4>
+            <p>Videos covering Copilot features and workflows in VS Code.</p>
+            <p>🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLj6YeMhvp2S5_hvBl2SE-7YCHYlLQ0bPt">GitHub Copilot Series</a></p>
+          </div>
+          <div class="box">
+            <h4>🎥 GitHub Copilot app</h4>
+            <p>Meet the AI desktop assistant and see how it fits into your workflow.</p>
+            <p>🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=LsA4vIX_3UY&amp;list=PLNBWjViYXaIY&amp;pp=0gcJCf8COCosWNin">Meet the GitHub Copilot app</a></p>
+          </div>
+          <div class="box">
+            <h4>🎥 GitHub Copilot Day</h4>
+            <p>Sessions and demos spanning the GitHub Copilot product family.</p>
+            <p>🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLHojbv_tFKsc">GitHub Copilot Day</a></p>
+          </div>
+          <div class="box">
+            <h4>🎥 GitHub Copilot CLI</h4>
+            <p>A beginner-friendly walkthrough of Copilot in the terminal.</p>
+            <p>🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=BDxRhhs36ns&amp;list=PL0lo9MOBetEHvO-spzKBAITkkTqv4RvNl&amp;pp=0gcJCf8COCosWNin">Getting started with Copilot CLI</a></p>
+          </div>
+        </div>
       </section>
 
       <section>
-        <h3>Takeaways</h3>
-        <ul>
-          <li>MCP gives coding agents a standard way to discover external capabilities.</li>
-          <li>Public and authenticated servers have different setup and risk profiles.</li>
-          <li>Tool calls are inspectable, controllable, and constrained by real permissions.</li>
-          <li>Good workflows mix remote MCP tools with local editing and validation.</li>
-          <li>Agent skills make those workflows reusable without replacing MCP.</li>
-          <li>Least privilege and deliberate approval are part of the engineering work.</li>
-        </ul>
+        <h3>Learn more: MCP</h3>
+        <div class="two-column" style="align-items: stretch;">
+          <div class="box">
+            <h4>🎓 MCP for Beginners</h4>
+            <p>A hands-on curriculum covering MCP concepts and development.</p>
+            <p>🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/thesource-developer/Event/579/mcp-for-beginners">Start learning</a></p>
+          </div>
+          <div class="box">
+            <h4>🎥 MCP Live</h4>
+            <p>Rewatch sessions covering the latest MCP tools, patterns, and integrations.</p>
+            <p>🔗 <a target="_blank" rel="noopener noreferrer" href="https://aka.ms/MCPLive/rewatch">Watch the recordings</a></p>
+          </div>
+          <div class="box">
+            <h4>🎥 Python + Azure</h4>
+            <p>A video series on building MCP servers with Python and Azure.</p>
+            <p>🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/thesource-developer/Event/581/video-series-learn-how-to-build-mcp-servers-with-python-and-azure">Watch the series</a></p>
+          </div>
+          <div class="box">
+            <h4>🧩 MCP in VS Code</h4>
+            <p>Learn how to configure and use MCP servers in VS Code.</p>
+            <p>🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/thesource-developer/Event/578/mcp-servers-in-vs-code">Explore the guide</a></p>
+          </div>
+        </div>
       </section>
 
       <section>
         <h3>Thank you</h3>
-        <p>Workshop repository:<br><a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop">github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
-        <p>Continue exploring:</p>
-        <ul>
-          <li><a href="https://modelcontextprotocol.io/">Model Context Protocol documentation</a></li>
-          <li><a href="https://github.com/mcp">GitHub MCP Registry</a></li>
-          <li><a href="https://github.com/github/awesome-copilot">Awesome GitHub Copilot skills and customizations</a></li>
-        </ul>
+        <h4>Questions?</h4>
+        <table class="about-links" style="max-width: 760px; margin-left: 0; margin-right: auto;">
+          <tbody>
+            <tr><td>Twitter</td><td><a href="https://twitter.com/pamelafox" target="_blank" rel="noopener noreferrer">🔗 @pamelafox</a></td></tr>
+            <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/pamela-s-fox/" target="_blank" rel="noopener noreferrer">🔗 linkedin.com/in/pamela-s-fox</a></td></tr>
+            <tr><td>GitHub</td><td><a href="https://github.com/pamelafox" target="_blank" rel="noopener noreferrer">🔗 github.com/pamelafox</a></td></tr>
+            <tr><td>Website</td><td><a href="https://pamelafox.org" target="_blank" rel="noopener noreferrer">🔗 pamelafox.org</a></td></tr>
+          </tbody>
+        </table>
+        <p>Workshop repository:<br>
+          <a href="https://github.com/pamelafox/github-copilot-mcp-skills-workshop" target="_blank" rel="noopener noreferrer">🔗 github.com/pamelafox/github-copilot-mcp-skills-workshop</a></p>
       </section>
     </div>
   </div>
