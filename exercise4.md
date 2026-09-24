@@ -81,14 +81,14 @@ small, composable engineering workflows.
 3. Start a fresh chat and try the installed skill:
 
   ```text
-  Use codebase-design to evaluate whether src/quiz.py has a good interface for
+  /codebase-design evaluate whether src/quiz.py has a good interface for
   adding a timed mode and automated tests.
   ```
 
   You do not need to implement any new features, just observe the response.
 
 4. Explore the other installed skills to find others that may be helpful for
-   your software development flow. For example, you can a sequence of skills like
+   your software development flow. For example, you can use a sequence of skills like
    `/grill-me` → `/to-spec` → `/to-tickets` → `/tdd` or 
    `/implement` → `/code-review` → `/pr` → `/retro`.
 
